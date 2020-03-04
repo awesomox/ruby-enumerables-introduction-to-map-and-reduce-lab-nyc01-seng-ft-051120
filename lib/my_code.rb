@@ -63,11 +63,9 @@ def reduce_to_any_true(array)
   while row_index < array.length do 
     if array[row_index] == TRUE
       return true 
-      break
     else
       row_index +=1 
     end
-   return false 
 end
     
     
