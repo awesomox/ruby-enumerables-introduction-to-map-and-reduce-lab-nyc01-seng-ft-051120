@@ -43,7 +43,7 @@ def reduce_to_total(array, starting_point = 0)
     total += array[row_index]
     row_index += 1 
   end
-  total
+  puts total 
 end
 
 
