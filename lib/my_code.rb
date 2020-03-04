@@ -37,11 +37,10 @@ def map_to_square(array)
 end
 
 def reduce_to_total(array, starting_point)
-  row_index = starting_point
   total = 0 
-  while row_index < array.length do 
-    total += array[row_index]
-    row_index += 1 
+  while starting_point < array.length do 
+    total += array[starting_point]
+    starting_point += 1 
   end
   total
 end
