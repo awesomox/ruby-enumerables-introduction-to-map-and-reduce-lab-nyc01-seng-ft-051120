@@ -48,7 +48,26 @@ end
 
 def reduce_to_all_true(array)
   row_index = 0 
-  if array[row_index] == TRUE
+  while row_index < array.length do 
+    if array[row_index] == TRUE
+      row_index += 1
+    else
+      return false 
+    end
+  end
+  return true 
+end
+
+def reduce_to_any_true(array)
+  row_index = 0 
+  while row_index < array.length do 
+    if array[row_index] == TRUE
+      return true 
+    else
+      row_index +=1 
+    end
+   
+end
     
     
     
