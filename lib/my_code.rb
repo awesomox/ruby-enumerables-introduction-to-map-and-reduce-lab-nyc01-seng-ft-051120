@@ -51,6 +51,7 @@ def reduce_to_all_true(array)
   while row_index < array.length do 
     if array[row_index] != false  
       row_index +=1 
+      return true 
     else
       return false 
       break 
