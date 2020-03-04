@@ -9,8 +9,19 @@ def map_to_negativize(array)
   negative_array
 end
 
-map_to_no_change(array)
+def map_to_no_change(array)
   new_array = array
   new_array
+end
+
+def map_to_double(array)
+  doubled_array = []
+  row_index = 0 
+  while row_index < array.length do 
+    result = array[row_index] * 2
+    doubled_array << result 
+    row_index += 1 
+  end
+  doubled_array
 end
 
