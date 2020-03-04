@@ -50,3 +50,4 @@ def reduce_to_all_true(array)
   row_index = 0 
   if array[row_index] 
     
+    
