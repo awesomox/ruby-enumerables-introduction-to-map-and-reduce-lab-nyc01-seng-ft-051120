@@ -47,7 +47,20 @@ def reduce_to_total(array, starting_point = 0)
 end
 
 def reduce_to_all_true(array)
-  if array.any?
+  if array.all? 
+    return TRUE
+  else
+    return FALSE
+  end
 end
+
+def reduce_to_any_true(array)
+  if array.any?
+    return TRUE
+  else
+    return FALSE
+  end
+end
+
     
     
