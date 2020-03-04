@@ -47,16 +47,7 @@ def reduce_to_total(array, starting_point = 0)
 end
 
 def reduce_to_all_true(array)
-  row_index = 0 
-  while row_index < array.length do 
-    if array[row_index] != false  
-      row_index +=1 
-      return true 
-    else
-      return false 
-      break 
-    end
-  end
+  if array.any?
 end
     
     
