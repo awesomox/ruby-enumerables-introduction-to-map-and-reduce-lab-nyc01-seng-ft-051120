@@ -55,7 +55,6 @@ def reduce_to_all_true(array)
       return false 
       break 
     end
-  return true 
   end
 end
     
