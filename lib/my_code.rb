@@ -46,7 +46,10 @@ def reduce_to_total(array, starting_point = 0)
   return total 
 end
 
-
+def reduce_to_all_true(array)
+  row_index = 0 
+  while row_index < array.length do 
+    if array[row_index]
     
     
     
